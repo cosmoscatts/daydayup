@@ -4,6 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Test01 {
+    // 7/13 日打卡
     public int[] asteroidCollision(int[] asteroids) {
         Deque<Integer> dq = new ArrayDeque<>();
         for (int t: asteroids) {
